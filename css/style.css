@@ -470,3 +470,82 @@ transition: .5s;
   bottom: -50px;
 }
 /* ======== Destination2 end here ======== */
+.gallery{
+    display: flex;
+    gap: 16px;
+}
+.gallery .gallery-main .gallery-one{
+    width: 275px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.gallery .gallery-main .gallery-one .overlay{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.gallery .gallery-main .gallery-one .overlay h6{
+    color: #707070;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gallery .gallery-main .gallery-one .overlay p{
+    color: #707070;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gallery .gallery-main .gallery-two{
+    width: 275px;
+    height: 266px;
+    background: #e08787;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* ====================== most css end ======================*/
+#counter{
+    background: url(../images/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.counter .counter-item{
+    width: 20%;
+}
+.counter .counter-item h5{
+    color: #707070;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.counter .counter-item p{
+    color: #707070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ====================== counter css end ======================*/
