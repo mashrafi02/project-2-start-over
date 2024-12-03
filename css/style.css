@@ -768,3 +768,142 @@ transition: .5s;
   z-index: 555;
 }
 /* ======== Review end here ======== */
+
+/* =========================================== question start here ============================================================= */
+.question-wrapper{
+    height: 653px;
+    background: url(../images/Group\ 116.webp) no-repeat center;
+    background-size: cover;
+    padding-top: 84px;
+    margin-bottom: 120px;
+}
+
+.question-wrapper .questions{
+    text-align: center;
+}
+
+.question-wrapper .questions h2{
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 61px;
+}
+
+.question-wrapper .questions .bar1{
+    width: 778px;
+    height: 4px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.question-wrapper .questions p{
+    width: 661px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 75px auto 59px auto;
+}
+
+.question-wrapper .questions .bar2{
+    width: 411px;
+    height: 3px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.question-wrapper .questions a{
+    display: inline-block;
+    margin-top: 44px;
+    padding: 21px 67px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #FF8000;
+    border-radius: 16px;
+}
+/* =========================================== question end here ============================================================= */
+
+
+/* =========================================== links start here ============================================================= */
+.link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 73.5px;
+}
+
+.link-wrapper .item h4{
+    color: #036E8A;
+    text-transform: uppercase;
+    font-size: 24.917px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32.5px;
+}
+
+.link-wrapper .item .bar{
+    width: 142px;
+    height: 2px;
+    background: #036E8A;
+    margin-bottom: 36.5px;
+}
+
+.link-wrapper .item ul li a{
+    display: inline-block;
+    color: #262525;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+/* =========================================== links end here ============================================================= */
+
+
+/* =========================================== footer start here ============================================================= */
+#footer{
+    width: 100%;
+    height: 113px;
+    background: #FF8000;
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-wrapper .buttons{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    column-gap: 9.5px;
+}
+
+.footer-wrapper .buttons a{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+}
+/* =========================================== footer end here ============================================================= */
