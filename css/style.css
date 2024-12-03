@@ -21,7 +21,25 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1146px;
     margin: 0 auto;
 }
-
+.sec_subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #000;
+}
+.sec_title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: normal;
+  color: #036e8a;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
 /* ================================================= navbar start here =================================================== */
 
 
@@ -406,6 +424,49 @@ transition: .5s;
     font-weight: 400;
     line-height: normal;
 }
-
-
 /* ====================== Package css end ======================*/
+/* ======== Destination2 start here ======== */
+#destination2 {
+  padding: 70px 0;
+  background-color: #036e8a;
+}
+.destination2_wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 999;
+}
+.destination2_img {
+  width: 508px;
+  height: 523px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.destination2_img img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.destination2_details {
+  height: 200px;
+  width: 566px;
+}
+.destination2_details .sec_subtitle {
+  color: #fff;
+}
+.destination2_details .sec_title {
+  color: #fff;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+.destination2_shape {
+  position: relative;
+}
+.destination2_shape img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
+/* ======== Destination2 end here ======== */
