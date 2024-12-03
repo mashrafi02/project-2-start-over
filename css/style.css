@@ -22,3 +22,148 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
 }
 
+/*====================  common css end======================= */
+.heading{
+    width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.heading h2{
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.heading p{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.package {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.package .item{
+    width: 32%;
+    border: 2px solid #036E8A;
+    padding: 36px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+.package .item h4{
+    color: #036E8A;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+transition: .5s;
+-webkit-transition: .5s;
+-moz-transition: .5s;
+-ms-transition: .5s;
+-o-transition: .5s;
+}
+.package .item h5{
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.package .item p{
+    color: #036E8A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.package .item:hover h4{
+    color: #FF8000;
+}
+.package .item:hover h5{
+    color: #FF8000;
+}
+.package .item:hover p{
+    color: #FF8000;
+}
+.package .item ul li i{
+    color: #036E8A;
+    margin-right: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.package .item:hover ul li i{
+    color: #FF8000;
+}
+
+.package .item ul li{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.package .item .package-btn{
+    position: absolute;
+    bottom: -114px;
+    left: 72px;
+}
+
+.package .item .package-btn button{
+    width: 200px;
+    height: 60px;
+    background: #036E8A;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 16px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.package .item:hover .package-btn button{
+    background: #FF8000;
+}
+.package .item .package-btn p{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ====================== Package css end ======================*/
