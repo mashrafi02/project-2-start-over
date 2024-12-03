@@ -118,6 +118,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .banner-wrapper .heading h1{
+    text-align: left;
     width: 724px;
     color: #FFF;
     text-transform: uppercase;
